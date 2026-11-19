@@ -1,0 +1,50 @@
+{
+  "note": "Frozen BEFORE the architecture refactor. Any change here is a behavior change and must be justified.",
+  "commands": {
+    "audit_json": {
+      "args": ["--root", "examples/demo", "audit", "src/app.py", "--format", "json", "--no-color"],
+      "sha256": "584a33bc75245f76b4da474b245b29f2bf4091a0f222df2bdf1c7b3dd523c8df",
+      "exit": 1
+    },
+    "audit_tty": {
+      "args": ["--root", "examples/demo", "audit", "src/app.py", "--format", "tty", "--no-color"],
+      "sha256": "0e9c8dce2ef8d093ec6f494ad8e350c9306fb0182fdd75cddd3bff5f88389b76",
+      "exit": 1
+    },
+    "audit_markdown": {
+      "args": ["--root", "examples/demo", "audit", "src/app.py", "--format", "markdown", "--no-color"],
+      "sha256": "16928d62e7319c56375519c05a3f8c40e9897044b28ba6d7ad34438b3e11fc92",
+      "exit": 1
+    },
+    "audit_sarif": {
+      "args": ["--root", "examples/demo", "audit", "src/app.py", "--format", "sarif", "--no-color"],
+      "sha256": "6f8212b57bd189ec712e2dafc786f35124b3fe7ec44f723f7dcedd296a98c042",
+      "exit": 1
+    },
+    "resolve_json": {
+      "args": ["--root", "examples/demo", "resolve", "src/app.py", "--harness", "all", "--format", "json", "--no-color"],
+      "sha256": "cd54388d22529735fe7938941b1a0e7ea6b4e022a2e0466920eacad9f090ce69",
+      "exit": 0
+    },
+    "diff_json": {
+      "args": ["--root", "examples/demo", "diff", "src/app.py", "--format", "json", "--no-color"],
+      "sha256": "9686ee0151a9ebe9e1df9c752681123aef749d0691dec2a06c51975cfc450a93",
+      "exit": 0
+    },
+    "snapshot": {
+      "args": ["--root", "examples/demo", "snapshot"],
+      "sha256": "46bcc2fff4ab8833d500d79be2af720af5d6d3d4ec74c2f04ccf290884e3db96",
+      "exit": 0
+    },
+    "harnesses": {
+      "args": ["harnesses"],
+      "sha256": "580d7f02e10b2bef2ec3edbee44857abdcbf8cc3cce55c31426012a66b000089",
+      "exit": 0
+    },
+    "explain_all": {
+      "args": ["explain", "--all"],
+      "sha256": "d0f729228c417d690af69f017294b61c848a2dbea312e31e05d07a66dbda5970",
+      "exit": 0
+    }
+  }
+}
