@@ -1,0 +1,11 @@
+{
+  "harnesses": ["codex", "claude", "zed", "cascade"],
+  "ignore": ["docs/generated/**", "vendor/**"],
+  "max_tokens": 8000,
+  "import_hops": 4,
+  "contradiction_threshold": 0.7,
+  "fail_on": "error",
+  "max_targets": 2000,
+  "enabled_rules": [],
+  "disabled_rules": []
+}
