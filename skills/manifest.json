@@ -1,0 +1,71 @@
+{
+  "bundle": "prism-context skill bundle",
+  "retrieved": "2026-11-13",
+  "method": "public documentation and catalog reconstruction; direct git clone unavailable (HTTP 403)",
+  "verbatim_upstream_mirror": false,
+  "skills": [
+    {
+      "folder": "anthropics-template-skill",
+      "name": "template-skill",
+      "source": "https://github.com/anthropics/skills/blob/main/template/SKILL.md",
+      "license": "Apache-2.0 repository-level; document skills source-available; verify per skill",
+      "status": "reconstructed scaffold"
+    },
+    {
+      "folder": "obra-brainstorming",
+      "name": "brainstorming",
+      "source": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
+      "license": "MIT (reported by catalogs)",
+      "status": "condensed reconstruction"
+    },
+    {
+      "folder": "mattpocock-grill-me",
+      "name": "grill-me",
+      "source": "https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md",
+      "license": "MIT (reported by catalogs)",
+      "status": "frontmatter captured verbatim; body condensed"
+    },
+    {
+      "folder": "mattpocock-tdd",
+      "name": "tdd",
+      "source": "https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md",
+      "license": "MIT (reported by catalogs)",
+      "status": "condensed reconstruction"
+    },
+    {
+      "folder": "mattpocock-improve-codebase-architecture",
+      "name": "improve-codebase-architecture",
+      "source": "https://github.com/mattpocock/skills/blob/main/skills/engineering/improve-codebase-architecture/SKILL.md",
+      "license": "MIT (reported by catalogs)",
+      "status": "condensed reconstruction with project overlay"
+    },
+    {
+      "folder": "vercel-find-skills",
+      "name": "find-skills",
+      "source": "https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md",
+      "license": "not verified",
+      "status": "condensed reconstruction from public catalog text"
+    },
+    {
+      "folder": "stop-slop",
+      "name": "stop-slop",
+      "source": "https://github.com/hardikpandya/stop-slop/blob/main/SKILL.md",
+      "license": "MIT",
+      "status": "condensed reconstruction"
+    },
+    {
+      "folder": "deep-thinking-grilling",
+      "name": "deep-thinking-grilling",
+      "source": "local",
+      "license": "MIT",
+      "status": "original"
+    },
+    {
+      "folder": "prism-context-audit",
+      "name": "prism-context-audit",
+      "source": "local",
+      "license": "MIT",
+      "status": "original"
+    }
+  ]
+}
