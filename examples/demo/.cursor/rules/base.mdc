@@ -1,0 +1,7 @@
+---
+description: TypeScript conventions
+globs: ["src/**/*.ts", "src/**/*.tsx"]
+---
+
+- Always add explicit return types.
+- Avoid `any`.
